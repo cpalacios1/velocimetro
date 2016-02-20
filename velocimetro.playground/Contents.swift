@@ -43,6 +43,6 @@ var auto = Auto()
 
 for i in 1...20 {
     var velocidadActual = auto.cambioDeVelocidad()
-    print("\(velocidadActual.actual) \(velocidadActual.velocidadEnCadena)")
+    print("\(i). \(velocidadActual.actual) \(velocidadActual.velocidadEnCadena)")
 }
 
