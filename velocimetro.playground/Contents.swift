@@ -32,8 +32,8 @@ class Auto {
             velocidad = Velocidades(velocidadInicial : .VelocidadAlta)
             velocidadTexto = "Velocidad alta"
         } else if(velocidad==Velocidades.VelocidadAlta){
-            velocidad = Velocidades(velocidadInicial : .Apagado)
-            velocidadTexto = "Apagado"
+            velocidad = Velocidades(velocidadInicial : .VelocidadMedia)
+            velocidadTexto = "Velocidad media"
         }
         return (velocidad.rawValue, velocidadTexto)
     }
